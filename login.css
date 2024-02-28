@@ -1,0 +1,67 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d0808;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #292525;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(19, 17, 17, 0.1);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #eae1e1;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #c9bebe;
+  border-radius: 3px;
+  box-sizing: border-box; /* Ensure padding and border don't add to the width */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #007bff;
+  margin-bottom: 20px;
+  color: #eae7e7;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
